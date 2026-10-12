@@ -6,4 +6,6 @@
 - [x] Optional OpenAI-compatible grounded tutor; explicit deterministic fallback
 - [x] Adaptive quiz, scoring, analytics, and revision plan
 - [x] Automated service tests
-- [ ] Install dependencies and run UI/tests in this environment
+- [x] Install dependencies and run tests (`pytest -q`: 21 passed on Python 3.12 / Streamlit 1.39)
+- [x] Redesigned UI (`learnsphere/ui/`) with headless end-to-end tests via Streamlit AppTest
+- [ ] Visual check in a real browser at narrow and wide widths (not performed in the build sandbox)

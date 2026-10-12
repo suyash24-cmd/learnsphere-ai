@@ -25,6 +25,10 @@ The checked-in evaluation dataset is synthetic: 20 answerable questions and 10 o
 
 See [docs/REQUIREMENTS_MATRIX.md](docs/REQUIREMENTS_MATRIX.md) for an honest feature-status audit and `docs/` for architecture, grounding, learner-model, evaluation, and demonstration documentation.
 
+## Interface
+
+The Streamlit UI lives in `learnsphere/ui/` (`theme.py` design tokens and scoped CSS, `data.py` read-only view helpers, `views.py` the seven screens); `.streamlit/config.toml` sets the native theme. Screens read only real store data, so a fresh install shows empty states and no statistics. Mastery numbers are Bayesian Knowledge Tracing estimates and are labelled as heuristics in the UI.
+
 ## Design notes
 
 The app normalizes all input to source-preserving chunks in SQLite. Lexical retrieval is the dependable offline baseline. PDF pages, slides, and transcript timestamps are retained in citations. For video, FFmpeg/transcription is deliberately configuration-dependent; transcript upload remains a complete offline path.

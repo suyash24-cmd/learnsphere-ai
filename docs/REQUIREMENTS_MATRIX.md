@@ -16,3 +16,4 @@
 | Model-based generation evaluation | Blocked | Requires evaluator model credentials; no result claimed |
 | Simulated learner evaluation | Implemented | seeded `simulate.py`; simulation is not educational efficacy |
 | Concept map | Missing | Deferred behind mandatory source/evaluation functionality |
+| Citation accuracy for DOCX and timed transcripts | Fixed 2026-10-13 | DOCX passages no longer claim "p. 1"; VTT/SRT cues and leading `[mm:ss]` stamps are kept per passage; plain TXT gets no timestamp (`test_ui.py`) |
