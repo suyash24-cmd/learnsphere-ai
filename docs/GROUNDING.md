@@ -1,0 +1,2 @@
+# Grounding and citations
+Every returned source is an actual retrieved `Chunk` with its stored ID, excerpt, and page/slide/timestamp citation. The deterministic path only repeats source excerpts and labels itself as non-LLM. When lexical retrieval returns no evidence, it abstains. It does not use outside knowledge. PDF/page opening and video seek links are not yet implemented because originals are not retained in the store.

@@ -1,0 +1,21 @@
+{
+  "dataset": {
+    "answerable": 20,
+    "unsupported": 10,
+    "synthetic": true
+  },
+  "retrieval": {
+    "hit_rate": 1.0,
+    "context_recall": 1.0,
+    "context_precision": 0.6366666666666667,
+    "mrr": 0.95
+  },
+  "grounding": {
+    "unsupported_refusal_rate": 1.0,
+    "invalid_citations": 0
+  },
+  "generation": {
+    "faithfulness": "not measured: no model-based evaluator or credentials",
+    "answer_relevancy": "not measured: no model-based evaluator or credentials"
+  }
+}

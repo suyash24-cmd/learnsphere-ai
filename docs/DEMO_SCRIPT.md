@@ -1,0 +1,2 @@
+# 5-minute demo
+1. Open Overview and show the empty onboarding state. 2. Upload a PDF, slides, or provided transcript. 3. Ask a grounded question; show excerpts and citations. Ask an off-material question to show abstention. 4. Generate and submit a source-based quiz. 5. Show persisted mastery and revision rationale. 6. Run the deterministic evaluation command and explain that its dataset is synthetic. 7. State the explicit OCR/video/model-evaluation limitations.

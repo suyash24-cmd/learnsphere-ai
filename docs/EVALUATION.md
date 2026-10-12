@@ -1,0 +1,2 @@
+# Evaluation
+Run `python -m learnsphere.evaluation.run_eval --out evaluation_report.json` and `python -m learnsphere.evaluation.simulate`. The versioned synthetic dataset has 20 answerable and 10 off-material questions covering PDF-like, slide-like, and transcript-like chunks. Retrieval metrics are deterministic: hit rate/recall are fraction with the known chunk in top 5; MRR is mean reciprocal known-chunk rank; precision is one known source divided by returned contexts. RAGAS/DeepEval model metrics are deliberately not reported without credentials.
